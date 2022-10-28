@@ -17,6 +17,10 @@ a {
     color: inherit;
 }
 
+img {
+    width: 100%;
+}
+
 .hero {
     background-color: #1F2937;
     color: aliceblue;
@@ -34,7 +38,7 @@ a {
 }
 
 .nav {
-    padding: 1em 0;
+    padding-top: 1em;
     justify-content: space-between;
     align-items: center;
 }
@@ -51,4 +55,43 @@ a {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
+}
+
+.hero__content {
+    justify-content: space-between;
+    align-items: center;
+    padding: 4em 0;  
+}
+
+.hero__focus {
+    width: 55%;
+    color: #F9FAF8;
+}
+
+.hero__focus--title {    
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero__focus--text {    
+    font-size: 18px;
+    margin-bottom: 1em;
+} 
+
+.hero__focus--btn {
+    background: #3882F6;
+    padding: .5em 1em;
+    border-radius: .5em;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+    cursor: pointer;    
+}
+
+.hero__img {
+    width: 43%;
+}
+
+hero__ img img {
+    width: 600px;
 }
