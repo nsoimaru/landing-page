@@ -131,7 +131,7 @@ img {
 }
 
 .quote__content {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -172,6 +172,12 @@ img {
     padding-bottom: 1em;
 }
 
+.footer {
+    background: #1F2937;
+    padding: 2em 0;
+    color: #E5E7EB;
+    text-align: center;
+}
 
 @media (max-width: 800px) {
     .row {
@@ -193,5 +199,9 @@ img {
 
     .portfolio__preview {
         margin-top: 4em;
+    }
+
+    .quote__content {
+        width: 100%;
     }
 } 
