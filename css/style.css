@@ -95,6 +95,8 @@ img {
 
 .portfolio__items {
     gap: 3em;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .portfolio__title {
@@ -133,5 +135,13 @@ img {
 
     .hero__img {
         margin-top: 2em;
+    }
+
+    .portfolio__items {
+        width: 70%;
+    }
+
+    .portfolio__preview {
+        margin-top: 4em;
     }
 } 
